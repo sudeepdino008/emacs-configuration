@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: header
+# key: header
+# --
+
+---
+layout: post
+title:  ${1:"Haskell interesting bits"}
+subtitle: 
+date: 2020-09-19 15:49:24 +0530
+tags: ${2:engineerings}
+category: ${3:engineering}
+---

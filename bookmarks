@@ -1,0 +1,30 @@
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("neuron-create-zettel-buffer"
+ (filename . "~/.emacs.d/neuron-mode.el")
+ (front-context-string . "zettel-buffer (t")
+ (rear-context-string . "n neuron-create-")
+ (position . 13975))
+("neuron-mode.el"
+ (filename . "~/.emacs.d/neuron-mode.el")
+ (front-context-string . "\n(defun neuron--")
+ (rear-context-string . "uron-mode-map))\n")
+ (position . 49853))
+(".emacs"
+ (filename . "~/.emacs")
+ (front-context-string . "\n;; (defun func ")
+ (rear-context-string . "euron-mode.el\")\n")
+ (position . 304))
+("emacs zettel"
+ (filename . "~/open_source/zettelkasten/1a9925f5.md")
+ (front-context-string)
+ (rear-context-string . "al variables*\n\n\n")
+ (position . 1113))
+("index.md"
+ (filename . "~/open_source/zettelkasten/index.md")
+ (front-context-string)
+ (rear-context-string . "f>\n\n<9df1dfd7>\n\n")
+ (position . 94))
+)

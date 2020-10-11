@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: tick
+# key: ti
+# --
+\`$1\`

@@ -1,0 +1,340 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/ios/copilot/Copilot/Resources/" . "Assets.xcassets/")
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/ios/copilot/Copilot/" . "Resources/")
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/react-native/src/modules/" . "collisionDetected/")
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/react-native/src/" . "modules/")
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/react-native/" . "src/")
+ ("/Users/sudeepkumar/.emacs.d/.cask/27.1/" . "bootstrap/")
+ ("/Users/sudeepkumar/.emacs.d/.cask/" . "27.1/")
+ ("/Users/sudeepkumar/.emacs.d/neuron-mode/.cask/27.1/elpa/archives/" . "melpa/")
+ ("/Users/sudeepkumar/.emacs.d/neuron-mode/.cask/27.1/elpa/" . "f-20191110.1357/")
+ ("/Users/sudeepkumar/.emacs.d/neuron-mode/.cask/27.1/" . "elpa/")
+ ("/Users/sudeepkumar/.emacs.d/neuron-mode/.cask/" . "27.1/")
+ ("/Users/sudeepkumar/.emacs.d/neuron-mode/" . ".cask/")
+ ("/Users/sudeepkumar/open_source/zettelkasten/.neuron/" . "output/")
+ ("/Users/sudeepkumar/open_source/zettelkasten/" . "static/")
+ ("/Users/sudeepkumar/.emacs.d/snippets/haskell-snippets/snippets/" . "haskell-mode/")
+ ("/Users/sudeepkumar/.emacs.d/snippets/haskell-snippets/" . "snippets/")
+ ("/Users/sudeepkumar/.emacs.d/snippets/" . "markdown-mode/")
+ ("/Users/sudeepkumar/open_source/" . "zettelkasten/")
+ ("/Users/sudeepkumar/Zendrive/zendrive/resources/sdk_configs_diff/" . "gen_configs/")
+ ("/Users/sudeepkumar/open_source/slidingwindow/" . "_posts/")
+ ("/Users/sudeepkumar/.emacs.d/elpa/" . "magit-20200627.806/")
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/ios/copilot/" . "fastlane/")
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/" . "react-native/")
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/ios/copilot/Copilot.xcodeproj/" . "xcshareddata/")
+ ("/Users/sudeepkumar/Zendrive/zendrive/android/" . "BatteryApp/")
+ ("/Users/sudeepkumar/SICP/" . "chapter3/")
+ ("/usr/local/opt/chisel/" . "libexec/")
+ ("/usr/local/opt/" . "chisel/")
+ ("/usr/local/" . "opt/")
+ ("/usr/" . "local/")
+ ("/Users/sudeepkumar/Zendrive/zendrive/iOS/zendrive-ios-sdk-testing/" . "fastlane/")
+ ("/Users/sudeepkumar/Zendrive/zendrive/iOS/" . "zendrive-ios-sdk-testing/")
+ ("/Users/sudeepkumar/Zendrive/zendrive/iOS/ZendriveXamariniOSBinding/" . "Zendrive/")
+ ("/Users/sudeepkumar/.oh-my-zsh/" . "themes/")
+ ("/Users/sudeepkumar/Zendrive/zendrive_cocoapod/" . "Swift/")
+ ("/Users/sudeepkumar/Zendrive/zendrive/iOS/ZendriveXamariniOSSample2/.vs/SampleApp2/xs/" . "project-cache/")
+ ("/Users/sudeepkumar/.cocoapods/" . "keys/")
+ ("/Users/sudeepkumar/Zendrive/zendrive/sdk/" . "ZendriveSDKSwift/")
+ ("/Users/sudeepkumar/Zendrive/zendrive/iOS/ZDDogfood/" . "fastlane/")
+ ("/Users/sudeepkumar/Zendrive/" . "mobile-apps/")
+ ("/Users/sudeepkumar/Zendrive/sdk-ios-sample/Pods/Headers/Public/" . "ZendriveSDK/")
+ ("/Users/sudeepkumar/Zendrive/zendrive/" . "android/")
+ ("/Volumes/BOOTCAMP/Zendrive/zendrive/iOS/" . "ZDDogfood/")
+ ("/Volumes/BOOTCAMP/Zendrive/zendrive/iOS/zendrive-ios-sdk-testing/" . "fastlane/")
+ ("/Users/sudeepkumar/zendrive/android/ZendriveProject/ZendriveSDK-testing/" . "scripts/")
+ ("/Users/sudeepkumar/zendrive/android/ZendriveProject/ZendriveSDK/" . "scripts/")
+ ("/Users/sudeepkumar/zendrive/android/ZendriveProject/" . "ZendriveSDK-testing/")
+ ("/Users/sudeepkumar/zendrive/android/" . "ZendriveProject/")
+ ("/Users/sudeepkumar/zendrive/scripts/sdk/" . "release/")
+ ("/Users/sudeepkumar/zendrive/iOS/zendrive-ios-sdk-testing/" . "fastlane/")
+ ("/Users/sudeepkumar/zendrive/iOS/ZDDogfood/" . "fastlane/")
+ ("/Users/" . "sudeepkumar/")
+ ("/" . "Users/")
+ ("/Users/sudeepkumar/zendrive/scripts/" . "sdk/")
+ ("/Users/sudeepkumar/zendrive/sdk/ZendriveSDK.xcodeproj/" . "project.xcworkspace/")
+ ("/Users/sudeepkumar/zendrive/iOS/" . "Zendrive/")
+ ("/Users/sudeepkumar/zendrive/experimental/yogesh/" . "zendrive-ios-sdk-testing/")
+ ("/Users/sudeepkumar/zendrive/experimental/" . "yogesh/")
+ ("/Users/sudeepkumar/zendrive/" . "scripts/")
+ ("/Users/sudeepkumar/zendrive/sdk/" . "scripts/")
+ ("/Users/sudeepkumar/zendrive/experimental/yogesh/zendrive-ios-sdk-testing/" . "ZendriveSDKDemo.xcodeproj/")
+ ("/Users/sudeepkumar/.emacs.d/" . "snippets/")
+ ("/Users/sudeepkumar/" . "open_source/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/sudeepkumar/open_source/zettelkasten/"
+ "/Users/sudeepkumar/"
+ "/Users/sudeepkumar/.emacs.d/"
+ "/Users/sudeepkumar/open_source/neuron-mode/"
+ "/Users/sudeepkumar/.emacs.d/snippets/markdown-mode/"
+ "/Users/sudeepkumar/Zendrive/mobile-apps/react-native/"
+ "/Users/sudeepkumar/open_source/kindle_maker/source/"
+ "/Users/sudeepkumar/open_source/kindle_maker/"
+ "/Users/sudeepkumar/Zendrive/mobile-apps/ios/copilot/fastlane/"
+ "/Users/sudeepkumar/Zendrive/mobile-apps/ios/copilot/Copilot/Resources/"
+ "/Users/sudeepkumar/open_source/zettelkasten/static/"
+ "/Users/sudeepkumar/open_source/zettelkasten/.neuron/output/"
+ "/Users/sudeepkumar/.emacs.d/themes/"
+ "/Users/sudeepkumar/.emacs.d/pomidor/"
+ "/Users/sudeepkumar/Zendrive/zendrive/Battery2/"
+ "/Users/sudeepkumar/Zendrive/zendrive/Battery/"
+ "/Users/sudeepkumar/Zendrive/mobile-apps/react-native/src/modules/collisionDetected/"
+ "/Users/sudeepkumar/Zendrive/mobile-apps/react-native/src/navigator/"
+ "/"
+ "/Users/sudeepkumar/.emacs.d/neuron-mode/"
+ "/Users/sudeepkumar/.emacs.d/neuron-mode/.cask/27.1/elpa/archives/melpa/"
+ "/Users/sudeepkumar/Zendrive/zendrive/"
+ "/Users/sudeepkumar/open_source/slidingwindow/_posts/"
+ "/Users/sudeepkumar/open_source/slidingwindow/_drafts/"
+ "/Users/sudeepkumar/.emacs.d/yasnippet/"
+ "/Users/sudeepkumar/.emacs.d/snippets/haskell-snippets/snippets/haskell-mode/"
+ "/Users/sudeepkumar/.emacs.d/snippets/haskell-snippets/"
+ "/Users/sudeepkumar/Zendrive/zendrive/sdk/"
+ "/Users/sudeepkumar/Zendrive/mobile-apps/ios/copilot/"
+ "/Users/sudeepkumar/Zendrive/zendrive/iOS/ZDDogfood/"
+ "/Users/sudeepkumar/Zendrive/zendrive/resources/sdk_configs_diff/gen_configs/"
+ "/Users/sudeepkumar/Zendrive/zendrive/resources/sdk_configs_diff/"
+ "/Users/sudeepkumar/Zendrive/zendrive/sdk/scripts/"
+ "/Users/sudeepkumar/open_source/slidingwindow/"
+ "/Users/sudeepkumar/open_source/slidingwindow/css/"
+ "/Users/sudeepkumar/open_source/slidingwindow/_layouts/"
+ "/Users/sudeepkumar/.emacs.d/elpa/magit-20200627.806/"
+ "/Users/sudeepkumar/Zendrive/mobile-apps/ios/copilot/Copilot.xcodeproj/"
+ "/Users/sudeepkumar/SICP/chapter3/"
+ "/Users/sudeepkumar/SICP/chapter2/"
+ "/Users/sudeepkumar/Zendrive/zendrive/resources/sdk_configs_diff/sdk_config_checks/"
+ "/Users/sudeepkumar/SICP/"
+ "/Users/sudeepkumar/Zendrive/zendrive/iOS/zendrive-ios-sdk-testing/"
+ "/Users/sudeepkumar/toolkit/"
+ "/Users/sudeepkumar/Zendrive/zendrive/test_automation/jenkins/iOS/"
+ "/usr/local/opt/chisel/libexec/"
+ "/usr/local/opt/chisel/"
+ "/Users/sudeepkumar/Zendrive/zendrive/iOS/ZendriveXamariniOSSample2/test/"
+ "/Users/sudeepkumar/Zendrive/zendrive/iOS/ZendriveXamariniOSSample2/"
+ "/Users/sudeepkumar/Desktop/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".gitignore"
+ "index.md"
+ ".bash_profile"
+ "smooth-scroll.el"
+ "neuron-mode.el"
+ "tick"
+ "link"
+ "code block"
+ "69e19362.md"
+ "README.md"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/sudeepkumar/open_source/zettelkasten/.neuron/output/" (24451 2140 763734 533000) "d85ec130.html" "6e5a2def.html" "5797c97f.html" "world3.html" "6430f223.html" "0899dcb9.html" "3cd09edb.html" "c03ab52f.html" "0c0626d5.html" "hello_world_5.html" "85a10808.html" "256f01ea.html" "e2fea5d4.html" "8a1b98d6.html" "68a39091.html" "899832ce.html" "7d982d75.html" "Waasup_Friend4.html" "hh-jj.html" "hello_rr.html" "8498566d.html" "e8561b47.html" "cab3b887.html" "hello_world.html" "Waasup_Friend5.html" "hello_world4.html" "9fee62f2.html" "6657ca33.html" "e9061a48.html" "rrr.html" "9cfae20f.html" "hello-world.html" "was_was.html" "8c296247.html" "28f1d939.html" "9df1dfd7.html" "hello-world7.html" "7f09acf0.html" "a29d2ce8.html" "feb550a7.html" "fbb92020.html" "271cd779.html" "1a9925f5.html" "ab26d5f9.html" "search.html" "1ca5b529.html" "47076945.html" "65011206.html" "jj.html" "95beceec.html" "hello_world3.html" "69e19362.html" "92096498.html" "000382bf.html" "Waasup_Friend2.html" "dd33538c.html" "a7b6ddfd.html" "a769944c.html" "f655f141.html" "45e3b81e.html" "3ffa65f0.html" "b5c90ad7.html" "c23eb201.html" "43e65174.html" "Bye_World_1234555.html" "5f91a300.html" "4504096c.html" "static/" "e606a74e.html" "88f91d36.html" "1e7f086e.html" "0ffb9d7f.html" "c9da2f2a.html" "c52cd4c7.html" "08c26455.html" "1950e70d.html" "hello-world12.html" "a80e11f0.html" "f4052307.html" "77218c05.html" "hello_world10.html" "5d85794f.html" "c2dd0acf.html" "bfac2f9b.html" "acf58730.html" "bum.html" "297939c2.html" "--title.html" "Waasup_Friend3.html" "0d3bb863.html" "ad6825c8.html" "e125a362.html" "hello_world2.html" "b7776c0f.html" "126dbe89.html" "68df97d4.html" "7b038b21.html" "981400cb.html" "aabfb3ee.html" "0f9a2abe.html" "7b0c3d34.html" "2020-10-11.html" "7a0f78c3.html" "0efab94f.html" "171f0b79.html" "README.html" "6d2ca7a1.html" "f6752d88.html" "5e98ad8b.html" "923072a1.html" "bd78fcd8.html" "d0cf5a3d.html" "3c718a89.html" "hello-world11.html" "z-index.html" "a3e09a8e.html" "4e114693.html" "37c872eb.html" "6cea4e1b.html" "c316af3e.html" "hello_world12.html" "jj_ll-op.html" "3e578624.html" "e7a1ba4e.html" "f984b058.html" "5ccad0eb.html" "c1db7f2e.html" "07c43195.html" "8d834adb.html" "2809d1d6.html" "f19a1f33.html" "9e19ec69.html" "91ce2593.html" "33fa26a1.html" "b1972ebe.html" "895f6b4f.html" "Example_Test.html" "2020-10-10.html" "eec8a88f.html" "hello-world-14.html" "here.html" "world.html" "Neuron_Full_Mode.html" "bcf13081.html" "f52d68f5.html" "b1751d05.html" "0d4d4d5c.html" "82917aa1.html" "547c21b6.html" "1f84031d.html" "1de3b28d.html" "055dce39.html" "38f0b39e.html" "ddf8a519.html" "04caf192.html" "d753b7d4.html" "b03f3869.html" "hello-world-13.html" "db236a00.html" "hello-world8.html" "Waasup_Friend6.html" "535ac97c.html" "index.html" "23bcd3fe.html" "d8e41449.html" "075445b7.html" "def89707.html" "4babe6b2.html" "d4bbc5d5.html" "a96ff735.html" "hello-world9.html" "a7b54be3.html" "c3bb2cef.html" "6b459e59.html" "06e19721.html" "3cb2bcc8.html" "2d200aee.html" "d37294ef.html" "HELLPP_KLKL2.html" "../" "./")
+
+ ("/Users/sudeepkumar/" (24450 43783 208340 580000) ".zlogout" ".zlogin" ".#json1" ".viminfo" ".emacs.d.pre-prelude.tar" ".LANG" ".bash_history" "toolkit/" ".python-eggs/" "Pipfile.lock" ".emacs.el~" ".gvimrc" ".gitconfig" ".#ladakhplanning" ".aws/" ".zcompdump.zwc" "alacritty-git/" ".cache/" "Downloads/" ".oh-my-zsh/" ".ispell_english" ".gem/" ".bash_profile" ".m2/" ".vscode/" ".mono/" "LICENSE.txt" "xcode-beta.xip" ".bashrc_no" ".pyenv/" ".emacs.pre-prelude" "Documents/" ".npm/" "hello" ".ghcup/" ".zprezto/" ".zcompdump" ".gitflow_export" ".zoomus/" "Gemfile.lock" ".react-native-cli/" ".Trash/" ".emacs~" "Gemfile" "program.py" ".gradle/" ".ghc/" ".profile" ".enw/" ".bashdb_hist" ".python-version" "Applications/" ".emacs" "Movies/" ".ssh/" ".rustup/" ".tldr/" ".gitattributes" ".wpm.csv" "test-reports/" ".zcompdump-Sudeep’s MacBook Pro-5.3" ".sh_history" ".cisco/" ".cask/" ".zcompdump-Sudeep’s MacBook Pro-5.7.1" ".idlerc/" ".zshenv" "News/" ".#json1.json" ".zcompdump-zendrive’s MacBook Pro (3)-5.3" "Public/" ".sqlite_history" ".bash_sessions/" ".tmux.conf~" ".cups/" ".gitignore_global" ".cocoapods/" ".android/" ".cargo/" ".nix-defexpr/" ".gitconfig~" "open_source/" "prog1.scm" ".emacs.d/" ".wpmrc" ".ruby_inline/" ".IdentityService/" "iCloud Drive (Archive)/" ".emulator_console_auth_token" ".oracle_jre_usage/" ".lesshst" "file.bak" "1" "zdr_scripts/" ".#dump" ".matplotlib/" "Library/" ".zhistory" "Desktop/" ".zsh_history" ".#random" ".nuget/" "Postman/" ".nix-profile/" "curl_lldb.py" ".bundle/" ".nvm/" "here" ".zprofile" ".multirust/" ".pylint.d/" "Pictures/" "Creative Cloud Files/" ".local/" ".templateengine/" ".ServiceHub/" ".bash_profile~" ".zshrc" ".zshrc.pre-oh-my-zsh" ".bashrc" ".subversion/" ".cabal/" ".netrc" "file" "prog.scm" ".hgignore_global" ".stCommitMsg" ".CFUserTextEncoding" ".yarnrc" ".lldb/" ".tmux.conf" ".s3cfg~" ".ldap/" "Zendrive/" ".gnupg/" ".DS_Store" ".lldbinit" ".terminfo/" ".virtualenvs/" "#.newsrc-dribble#" "mit-scheme/" ".#zdrfunda.txt" "jekyll/" ".bashrc~" "experimental/" ".kodi/" "Music/" ".config/" ".zpreztorc" ".stack/" ".fastlane/" ".s3cfg" "varsha.md" ".nix-channels" "../" "./")
+
+ ("/Users/sudeepkumar/open_source/zettelkasten/" (24451 1721 889161 402000) "04caf192.md" "38f0b39e.md" "47076945.md" "cab3b887.md" "d8e41449.md" "e8561b47.md" "85a10808.md" "77218c05.md" "neuron.dhall" "a7b54be3.md" "c9da2f2a.md" "0d3bb863.md" "6b459e59.md" "1f84031d.md" "075445b7.md" "0f9a2abe.md" "000382bf.md" "91ce2593.md" ".git/" "8498566d.md" "d85ec130.md" "a96ff735.md" "2809d1d6.md" "b03f3869.md" "bd78fcd8.md" "6e5a2def.md" "f655f141.md" "ab26d5f9.md" "d37294ef.md" "5f91a300.md" "07c43195.md" "68df97d4.md" "a7b6ddfd.md" "9df1dfd7.md" "ad6825c8.md" ".github/" "1e7f086e.md" "43e65174.md" "c1db7f2e.md" "5ccad0eb.md" "0899dcb9.md" "static/" "06e19721.md" "45e3b81e.md" "3ffa65f0.md" "9cfae20f.md" "1a9925f5.md" "index.md" "82917aa1.md" ".gitignore" "7d982d75.md" "e606a74e.md" "923072a1.md" "e9061a48.md" "95beceec.md" "README.md" "d0cf5a3d.md" "126dbe89.md" "f52d68f5.md" "5797c97f.md" "a769944c.md" "6430f223.md" "a80e11f0.md" "9fee62f2.md" "eec8a88f.md" "37c872eb.md" "8c296247.md" "7b0c3d34.md" "b1751d05.md" "bcf13081.md" "def89707.md" "271cd779.md" "db236a00.md" "8d834adb.md" "899832ce.md" "aabfb3ee.md" "3c718a89.md" "c316af3e.md" "895f6b4f.md" "7f09acf0.md" "4e114693.md" ".neuron/" "feb550a7.md" "6d2ca7a1.md" "c03ab52f.md" "171f0b79.md" "0ffb9d7f.md" "88f91d36.md" "3e578624.md" "256f01ea.md" "08c26455.md" "c52cd4c7.md" "69e19362.md" "23bcd3fe.md" "68a39091.md" "b7776c0f.md" "3cb2bcc8.md" "../" "./")
+
+ ("/Users/sudeepkumar/open_source/neuron-mode/" (24450 2357 655398 139000) ".git/" "Cask" ".gitignore" "README.md" "neuron-mode.el" "pbcopy" "LICENSE.md" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/test_automation/jenkins/iOS/" (24448 29379 967183 796000) "jenkinsTestConfig.sh" "iOSAutomationTest.sh" "cleanUp.sh" "iOSTestingLibUnitTests.sh" "updateTestRepos.sh" "iOSVersionAutomationTest.sh" "firebaseAutomationTest.sh" "iOSE2ETest.sh" "iOSSDKUnitTests.sh" "iOSBackendDataGenerator.sh" "updateRepos.sh" "iOSCLVerification.sh" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/iOS/zendrive-ios-sdk-testing/" (24448 29379 559587 948000) "InHouse_com.zendrive.BatteryTestApp.mobileprovision" "ZendriveSDKDemo.ipa" "Podfile.lock" "Podfile" "test3" "InHouse_com.zendrive.BatteryReferenceApp.mobileprovision" "Gemfile.lock" "Gemfile" "fastlane/" "ZendriveSDKDemo.xcworkspace/" ".gitignore" "Pods/" "Default-568h@2x.png" "ZendriveSDKDemo/" "README.md" "app.ipa" "6Y3V574KR2.cer" "release_on_fabric.sh" "ZendriveSDKDemo.xcodeproj/" "out" "ZendriveSDKDemoSwiftSDK-Info.plist" ".DS_Store" "zdr_whitefield_kempegowda.gpx" "mission_sfo.gpx" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/resources/sdk_configs_diff/sdk_config_checks/" (24448 29368 6841 27000) "gen_app_configs_check.py" "deploy_check_app_configs.py" "TEST-SdkConfigTests-20200708154731.xml" "__pycache__/" "TEST-SdkConfigTests-20200721133449.xml" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/ios/copilot/Copilot.xcodeproj/" (24448 24119 435167 926000) "xcshareddata/" "project.xcworkspace/" "xcuserdata/" "project.pbxproj" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/sdk/scripts/" (24448 29379 855198 384000) "cut_ios_release_branch.sh" "ios_sdk_release.sh" "jenkins_script_ios.sh" "unobfuscate.sh" "ios_cont_unittests.sh" "create_jazzy_documentation_for_mocklib.sh" "xccov-json-to-cobertura-xml.swift" "unobfuscate_log.py" "create_jazzy_documentation.sh" "generate-thrift-definitions.swift" "build_sdk_framework.sh" "release_prerequisites.sh" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/resources/sdk_configs_diff/" (24448 29379 641292 173000) "fleetio_txijldkdao.json" "generate_sdk_configs.py" "debug/" "custom_datastore_config_android.json" "dvp_non_prod.json" "sensor_fusion.json" "no_upload.json" "dvp_prod.json" "zendrive_internal.json" "android_default_trip_start_detection_mode.json" "ios_exclusive_activity.json" "phone_tap_detection_prod.json" "zendrive_dogfood.json" "v4_config.json" "enable_multiple_callbacks.json" "upload_gps.json" "accident_v5.json" "overspeeding_v2.json" "hard_brake_v7.json" "progressive_ubi.json" "__init__.pyc" "hurdlrinc_mclprryrha.json" "disable_event_data_upload.json" "zendrive_internal_consumer.json" "stop_signs.json" "ios_activity.json" "disable_cycling_detector.json" "scripts/" "celeration_v2.json" "check_app_configs.py" "fallback_no_power.json" "datastore_cleanup.json" "gen_configs/" "upload_only_collision.json" "motorcycle.json" "gen_diff.py" "psl_speeding_detection.json" "sherpashar_qbxwlnbmfp_debug.json" "hopskipdri_gnwryvxozu.json" "add_zdlist.py" "fleetio_txijldkdao_debug.json" "consumer.json" "lyft_kxmdhfkpsi.json" "disable_mount_fraction.json" "__pycache__/" "valid_json.pyc" "life360_toczfmgtzg.json" "multiple_collisions.json" "accident_summary_upload.json" "__init__.py" "verizon.json" "hard_turn_v2.json" "sdk_log_config_debug.json" "phone_tap_detection_non_prod.json" "valid_json.py" "vault_speeding_configurability.json" "check_app_configs.pyc" "gasbuddy_qndvlgejhf.json" "no_psl_speeding_detection.json" "android_geofence.json" "progressive_ubi_debug.json" "disable_max_accuracy_confirmation_callback.json" "transit.json" "fleet_apps_debug.json" "fleet_apps.json" "config" "fleetio_bhaauhwzkf.json" "sherpashar_qbxwlnbmfp.json" "heartbeat.json" "disable_transit.json" "mount_fraction.json" "clevershuttle.json" "zendriveba_zezpcywwdg.json" "accident_dlv1.json" "gm_debug_upload.json" "android_sdk_diagnostic.json" "android_device_based_geofence.json" "consumer_debug.json" "ids.json" "android_increase_alarm_frequency.json" "disable_biking_transit.json" "accident_no_gps.json" "sdk_config_checks/" "exp_configs_diff/" "enabled_events_not_null.json" "v4_config_pgr_detectors.json" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/resources/sdk_configs_diff/gen_configs/" (24448 29379 634033 898000) "fleetio_txijldkdao.json" "axaaffinge_guubybntdk.json" "debug/" "maxistelec_nghvrruhbl.json" "verizontel_kizqhhhhmf.json" "zd_pcimgdarvk.json" "copilot_pii.json" "ghtmobilit_efmebejyak.json" "telesure_xvzkbquoof.json" "gruposura_bumqnhkkbf_debug.json" "copilot_blind.json" "pirellicsp_ovqeovxhpp.json" "moonsoftde_bkkjbwbsja.json" "zendrive_dogfood.json" "zendrive_demo.json" "zendrivegm_lfmltyvypg.json" "hurdlrinc_mclprryrha_debug.json" "ituran_sguwgbihrv.json" "audiofamer_zgrulitqcn.json" "telefnica_uzinuwxfzp.json" "zendrive_preprod_2.json" "turkcell_nzqhwkujhb.json" "nttdocomo_lshtyqvnys.json" "verizontel_kizqhhhhmf_debug.json" "hachshara_ppholikvik.json" "bt_moplliurkg.json" "hurdlrinc_mclprryrha.json" "piramissrl_qfhoiyqtoc.json" "norwich123_bdmkstthah.json" "generalmot_kjjsdpkkyi.json" "sompodigit_skjmnnfaqh.json" "myown_udvivzuriz.json" "mcafee_nztxviqmvz.json" "suratest_yncxfkwfwf.json" "ziroridell_saeoctvqfy.json" "mojio_xqocyejpld.json" "gasbuddy_qndvlgejhf_debug.json" "vind_mqkdjrfchf.json" "nortonlife_moaxvtobew.json" "zendrive_contalyfsx.json" "zd_doxbqbejsy.json" "zdfleet_rjchuaralr_debug.json" "undo_ihxbdbezjw.json" "cargeasass_ixsxxlsdhj.json" "creditkarm_azdavlatuo.json" "sherpashar_qbxwlnbmfp_debug.json" "hopskipdri_gnwryvxozu.json" "toyota_kedwlounln.json" "miway_wxwodgmtrh.json" "mitsuisumi_lbolqhwepu.json" "fleetio_txijldkdao_debug.json" "farmbureau_smmntqihss.json" "zendrive_bbuiduxnvp.json" "lyft_kxmdhfkpsi.json" "zendrive_wryojrjfbt.json" "verisk_nsihbdoxdm.json" "vodafoneau_ferchtvddj.json" "aig_phmuaxwalm.json" "life360_toczfmgtzg.json" "amx_cpkzsnqbar.json" "stc_ngzyvzzity.json" "avast_kkbpbfrylj.json" "dsg_plenfdkgmb.json" "zendrive_preprod.json" "atlasfinan_xofudbnybq.json" "gm_zfombwfpnv_debug.json" "zendrive_verizon.json" "retaam_nlzqruriuj.json" "gasbuddy_qndvlgejhf.json" "verizon_kpwizhzcpj.json" "zendrive_jyfjhphjzb.json" "avriosinte_lyfkanliem.json" "ayalon_tmwkkjbiac.json" "smithmicro_bpyfgmeiur.json" "bayalarm_gpvewspanj.json" "zendrive_unittest.json" "xlxl1234_ruzdjfvajr.json" "coverfinan_cnrlevbkuh.json" "portosegur_abfulsqhsz.json" "vaultintel_fjnrbjcuef.json" "vodafone_lmzbmscjjk.json" "fleet_apps_debug.json" "fleet_apps.json" "copilot_dogfood.json" "voscaquila_nxiklkbgmw.json" "fleetio_bhaauhwzkf.json" "sherpashar_qbxwlnbmfp.json" "track24_zospuioack.json" "mnsaccount_ibyqrponhm.json" "zendrive_e2e_fleet.json" "brive_feygiwulcl.json" "zendrive_vqbscbrhhc.json" "zendriveba_zezpcywwdg.json" "gm_zfombwfpnv.json" "myfleetman_hvdaudvxpv.json" "zendrive_dpkloxhplj.json" "zendrive_e2e_consumer.json" "verizon_qyzfsnbmdk.json" "medgulfins_ilkqymkxkw.json" "gruposura_bumqnhkkbf.json" "drvr_jqfkfgrdkc.json" "exp_configs_diff/" "taiwanmobi_ftupgvyqrw.json" "generalmot_kjjsdpkkyi_debug.json" "fordmotorc_vshiijjrwa.json" "scotchcoll_hceifteygo.json" "zdfleet_rjchuaralr.json" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/iOS/ZDDogfood/" (24448 29379 544805 622000) "dogfood_utils.sh" "dogfood_release_utils.py" "Podfile.lock" "InHouse_com.zendrive.ZDDogfood.mobileprovision" "InHouse_com.zendrive.ZDDogfoodSwiftSDK.mobileprovision" "ZDDogfood1.entitlements" "Podfile" "Gemfile.lock" "Gemfile" "ZDDogfood.entitlements" ".python-version" "fastlane/" "ZendriveUnifiedDemo.xcodeproj/" ".gitignore" "Pods/" "ZendriveUnifiedDemo.xcworkspace/" "release_on_fabric.sh" "ZDDogfoodSwiftSDK.ipa" "ZDDogfood.ipa" ".swiftLint.yml" "ZendriveUnifiedDemo/" ".DS_Store" "ZDDogfoodTests/" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/ios/copilot/" (24448 23618 385467 390000) "sample.txt" "Podfile.lock" "assets/" "Frameworks/" "random" "Podfile" "Gemfile.lock" "Gemfile" "fastlane/" "Copilot-alpha.cer" "main.jsbundle" ".gitignore" "Pods/" "mycommand.sh" "Consolidated Pan India List of COVID-19 Hospitals.xlsx" "README.md" "Copilot-Japac-beta.mobileprovision" "Carthage/" "COVID-19 Related FAQs  .pdf" "Copilot-alpha.mobileprovision" "Consolidated Pan India List of COVID-19 Hospitals.xlsx.cpgz" "Cartfile" "Copilot-beta.mobileprovision" "script.sh" "Copilot/" "Zendrive/" "Copilot.xcworkspace/" ".DS_Store" "temp/" "CopilotTests/" "Copilot.xcodeproj/" "Cartfile.resolved" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/sdk/" (24448 29379 841074 906000) "DebugSDKTests/" "ZendriveSDK-Tests/" "Protocols/" "ZendriveSDKSwift.podspec" "ZendriveSDKSwift/" "temp_thrift" "trip_gps.json" "UnitTestsObjCModule/" "Frameworks/" "ZendriveSDKSwiftTests/" "build/" "scripts/" "swift/" "InternalObjCModule/" ".gitignore" "Cartfile.private" "README.md" "ZendriveSDK.podspec" "Carthage/" "ZendriveSDK-E2E-Tests-Info.plist" "ObfuscationWrapperApp/" "ZendriveSDK.xcodeproj/" "Cartfile" "Makefile" "Classes/" "temp_build_dir/" "ZendrivePrivateSDK/" ".DS_Store" "Cartfile.resolved" "ZendriveSDK/" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/" (24448 29379 570348 349000) ".idea/" "zdthriftc.py" "cdetectorlib/" "business_dashboard/" "phonegap/" "pushNotifications/" "emailer/" "demos/" "api_proxy/" "zdbson.so" "SidecarDemo/" "test.sh" "test_automation/" ".vscode/" "htmlcov/" ".git/" "jenkins/" "Battery/" "test2" "zdlib/" "application/" "venv/" "task_processing_v2/" "case_study/" "ZCertified/" "internal_tools/" "Zendrive_iOS_Demo/" ".python-version" "sensor_lab/" ".gitattributes" "scripts/" "toolbox/" "android/" "parse_hosting/" "sdk_backend_api/" "sdk/" "LyftDemo/" "od2/" "biz_ops/" "thriftgen/" "overSpeedingServerSide/" ".gitignore" "ZendriveTest/" "notes" "zdbson/" "etaMobileWebsite/" "zdinsurance/" "ZendriveMVP/" "analysis.txt" "partner_dashboard/" "dashboard/" "zdautoscaler/" "test_dvp_pipeline/" "README.md" "sdk_metric_server/" "iOS/" "output.csv" ".gitmodules" "ZDemo/" "__pycache__/" "partner_api/" "parse_migration/" "mobile_apps/" ".coveragerc" "zdthriftc.pyc" "zd_data_pipeline/" "__init__.py" "geo/" "old_ZCertified/" "api_gateway/" "resources/" "Battery2/" "config.json" "LumberjackFrameworkCreator/" ".coverage" "zdthrift/" "_zdthriftc.so" "ubi/" ".pytest_cache/" "ParseCloudCode/" "test/" "Zendrive.xcworkspace/" "analysis/" ".DS_Store" "customer_products/" "devops/" "zdspark/" "fairmatic_task_processing/" "experimental/" "1.0.2s/" "mapping/" "Zendrive_iOS/" "rater/" "visualization/" "websitev2/" "task_processing/" "zd_internal_api/" "bson/" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/react-native/src/modules/collisionDetected/" (24448 21115 184604 792000) "Navigator.js" "screens/" "EventHandler.js" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/ios/copilot/Copilot/Resources/" (24448 21115 1824 298000) "Info.plist" "GoogleService-Info-Alpha.plist" "Fonts/" "Copilot-Bridging-Header.h" "Base.lproj/" "GoogleService-Info.plist" "Assets.xcassets/" "GoogleService-Info-Production.plist" ".DS_Store" "GoogleService-Info-Beta.plist" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/ios/copilot/fastlane/" (24448 9236 793878 98000) "report.xml" "README.md" "Fastfile" "plugin/" "Appfile" "Pluginfile" "helpers.rb" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/react-native/" (24448 22892 768008 111000) "src/" "assets/" "package.json" ".gitignore" "yarn.lock" "Readme.md" "index.js" "node_modules/" "patches/" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/snippets/markdown-mode/" (24449 45951 758836 615000) "tick" "header" "link" "code block" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/snippets/" (24435 27933 499617 39000) "neuron-mode/" "markdown-mode/" "haskell-snippets/" ".DS_Store" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/snippets/neuron-mode/" (24435 27933 500802 348000) "div" "../" "./")
+
+ ("/Users/sudeepkumar/open_source/" (24444 41436 241963 132000) "neuron-mode/" "ocmock/" "psychic-doodle/" "ocmock-master.zip" "Archive Copilot_2020-08-28T09-12-57.txt" "git-play/" "symbols.map" "chisel/" "ExampleBankingApp.app/" "Core-Data-Editor/" "llvm-project/" "MyPlayground.playground/" "haskell/" "ExperimentalApp/" "slidingwindow/" "kindle_maker/" "CoreDataExplore/" "amrav.github.io/" "firebase-ios-sdk/" "Datastructures/" "zettelkasten/" "ios-class-guard-example/" ".DS_Store" "swift-llbuild/" "PPiOS-Rename/" "Kaleidoscope/" "SICP/" "wpm/" "../" "./")
+
+ ("/Users/sudeepkumar/open_source/kindle_maker/source/" (24444 41416 304492 251000) "how-we-will-be-measured.html" "confidence-all-the-way-up.html.bak" "half-assing-it-with-everything-youve-got.html.bak" "stop-before-you-drop.html.bak" "residing-in-the-mortal-realm.html.bak" "desperation.html" "not-yet-gods.html.bak" "rest-in-motion.html" "fighting-for-something.html" "youre-allowed-to-fight-for-something.html" "the-dark-world.html" "the-art-of-response.html.bak" "not-yet-gods.html" "have-no-excuses.html" "half-assing-it-with-everything-youve-got.html" "dont-steer-with-guilt.html.bak" "not-because-you-should.html.bak" "simply-locate-yourself.html.bak" "see-the-dark-world.html.bak" "come-to-your-terms.html" "shoulds-are-not-a-duty.html" "recklessness.html.bak" "stop-trying-to-try-and-try.html" "be-a-new-homunculus.html" "stop-before-you-drop.html" "be-a-new-homunculus.html.bak" "see-the-dark-worlddetach-the-grim-o-meter.html" "fire-within.html" "where-coulds-go.html" "stop-trying-to-try-and-try.html.bak" "dark-not-colorless.html.bak" "obvious-advice.html.bak" "toc.md" "shifting-guilt.html" "see-the-dark-world.html" "drop-your-obligations.html" "detach-the-grim-o-meter.html.bak" "there-is-no-try.html" "defiance.html.bak" "being-unable-to-despair.html" "have-no-excuses.html.bak" "being-unable-to-despair.html.bak" "there-is-no-try.html.bak" "dark-not-colorless.html" "you-dont-get-t.html" "defiance.html" "not-because-you-should.html" "how-we-will-be-measured.html.bak" "obvious-advice.html" "shoulds-are-not-a-duty.html.bak" "CURR_FILE.html" "shifting-guilt.html.bak" "replacing-guilt.html" "recklessness.html" "simply-locate-yourself.html" "failing-with-abandon.html.bak" "rest-in-motion.html.bak" "dont-steer-with-guilt.html" "failing-with-abandon.html" "you-dont-get-t.html.bak" "replacing-guilt.html.bak" "confidence-all-the-way-up.html" "best-you-can.html" "script.sh" "should-considered-harmful.html" "desperation.html.bak" "no-wasted-motion.html" "detach-the-grim-o-meter.html" "where-coulds-go.html.bak" "the-stamp-collector1.html" "residing-in-the-mortal-realm.html" "update-from-the-suckerpunch.html" "the-art-of-response.html" "come-to-your-terms.html.bak" "update-from-the-suckerpunch.html.bak" "transmute-guilt-i.html" "best-you-can.html.bak" "caring-about-some.html" "caring-about-some.html.bak" "the-stamp-collector.html" "the-stamp-collector.html.bak" "half-monkey-half-god.html" "transmute-guilt-i.html.bak" "should-considered-harmful.html.bak" "youre-allowed-to-fight-for-something.html.bak" "../" "./")
+
+ ("/Users/sudeepkumar/open_source/kindle_maker/" (24444 40081 239294 796000) ".travis.yml" "script.py" ".git/" "Replacing Guilt Sequences.mobi" ".python-version" ".gitattributes" ".github/" "examples/" "toc.md" ".gitignore" "setup.py" "README.md" "tests/" "kindle_maker/" "source/" "maker.py" "script.sh" "test" "requirements.txt" ".DS_Store" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/ios/copilot/Copilot/Resources/Assets.xcassets/" (24444 136 123364 653000) "Contents.json" "Icons/" "Colors/" "AppIcon.appiconset/" "Images/" ".DS_Store" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/themes/" (24442 10512 969449 115000) "hickey-theme.el" "junio-theme.el" "wilson-theme.el" "granger-theme.el" "brin-theme.el" "odersky-theme.el" "ritchie-theme.el" "dorsey-theme.el" "spolsky-theme.el" "graham-theme.el" "paper-theme.el" "mccarthy-theme.el" "fogus-theme.el" "../" "./")
+
+ ("/Users/sudeepkumar/open_source/zettelkasten/static/" (24443 22433 235795 458000) "core-data-stack.png" "ios_app_distribution_method.png" "certificate_software_type.png" "apple_membership.png" "excalidraw_example.png" "certificate_services_type.png" "dependence-graph.png" "design_process_variation.png" "design_process.png" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/ios/copilot/Copilot/" (24444 325 886466 515000) "Notifications/" "React/" "ShakeDetector/" "Trips/" "ApiService/" "Errors/" "CopilotRelease.entitlements" "Persistence/" "Profile/" "Firebase/" "Transit/" "Initialization/" "Utils/" "Resources/" "Licenses/" "DriveStartExtrapolation/" "App/" "ReverseGeocode/" "Zendrive/" ".DS_Store" "Preferences/" "TabBarNavigation/" "BlindMode/" "Settings/" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/" (24442 10506 766228 587000) "emacs-vim-modeline/" "emacs-color-themes/" "darkroom.el" "themes/" ".git/" "perspective-doc.html" "elpa/" "Cask" "recentf" "perspective-doc.md" "pomidor/" ".projectile" ".cask/" "smooth-scroll.el" ".gitignore" "ssh.el" "bookmarks" "yasnippet/" "auto-save-list/" "perspective.el" "SessionDesktop.el" "perspective-data" "smooth-scroll.el~" "recentf~" "transient/" "haskell-mode/" "places" "ido.last~" "neuron-mode.el" ".DS_Store" "ido.last" "profile-dotemacs.el" "snippets/" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/pomidor/" (24344 18137 0 0) "pomidor.el" "overwork.wav" "tack.wav" "README.md" "tick.wav" "CHANGELOG.md" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/sdk/ZendriveSDKSwift/" (24427 20000 549472 707000) "Configuration.swift" "DriveScore.swift" "ZendriveInsurance.swift" "Info.plist" "DriveResumeInfo.swift" "TripWarning.swift" "AccidentInfo.swift" "TagInfo.swift" "AnalyzedDriveInfo.swift" "ZendriveVehicleTagging.swift" "DriveStartInfo.swift" "ZendriveFeedback.swift" "ActiveDriveInfo.swift" "Settings.swift" "ZendriveVehicleTaggingError.swift" "MockAccidentConfig.swift" "ZendriveError.swift" "ZendriveSDKSwift.h" "SettingsError.swift" "State.swift" "EstimatedDriveInfo.swift" "ZendriveDebug.swift" "VehicleInfo.swift" "EventRatings.swift" "LocationPoint.swift" "Zendrive.swift" "Event.swift" "StarRating.swift" "ZendriveTest.swift" "DriveInfo.swift" "DriverAttributes.swift" "../" "./")
+
+ ("/Users/sudeepkumar/open_source/slidingwindow/" (24428 60843 514256 629000) "categories/" ".jekyll-cache/" "assets/" "about.md" ".git/" "robots.txt" "_sass/" "_data/" "Gemfile.lock" "sitemap.xml" "Gemfile" "scripts/" "_config.yml" "_site/" ".gitignore" "_drafts/" "_layouts/" "404.html" "_posts/" "css/" ".jekyll-metadata" ".DS_Store" "index.html" "feed.xml" "_includes/" "../" "./")
+
+ ("/Users/sudeepkumar/open_source/slidingwindow/_drafts/" (24428 61090 17712 950000) "llvm_stuff.markdown" "spartanization.markdown" "30-minute-questions.markdown" "haskell.markdown" "c++-notes.markdown" "2020-09-12-streams-in-swift.markdown" "core-data-notes.markdown" "compiler_notes.markdown" "../" "./")
+
+ ("/Users/sudeepkumar/open_source/slidingwindow/_posts/" (24428 61090 17713 36000) "2020-07-20-reading-embed-pods-framework-script.markdown" "2020-06-27-strength.markdown" "2020-07-05-notes-on-living.markdown" "2020-07-11-notes-on-questioning.markdown" "2020-06-27-welcome.markdown" "2020-09-25-cycling-in-ladakh.md" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/Battery/" (24427 19975 980271 447000) "7plus02-ref" "702-ref" "7plus01-ref" "701-ref" "7plus01-OB" "702-test" "reference_app.gz" "reference_app/" "iphone8-test" "7plus02-test" "x01-test" "xs01-ref" "xs02-ref" "8plus02-test" "1101-test" "801-test" "802-test" "8plus01-ref" "output.csv" "x02-ref" "8plus02-ref" "x01-ref" "8plus01-test" "1102-test" "801-ref" "802-ref" "7plus01-test" "1102-ref" "x02-test" "1101-ref" ".DS_Store" "701-test" "7plus01" "xs01-test" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/Battery2/" (24426 63251 339125 462000) "x01-1.tar.gz" "801-1.tar.gz" "x02-1/" "802-2.tar.gz" "1101-1/" "x02-2.tar.gz" "802-1/" "data/" "6s02-1/" "xs02-1/" "701-2/" "702-2.tar.gz" "701-1.tar.gz" "801-1/" "x01-1/" "download_exec.sh" "1102-1/" "xs01-1/" "xs01-2.tar.gz" "6s01-1/" "1101-1.tar.gz" "6s02-1.tar.gz" "702-2/" "6s01-2.tar.gz" "1102-2.tar.gz" "xs02-1.tar.gz" "output.csv" "802-2/" "x02-2/" "1101-2/" "801-2.tar.gz" "xs02-2/" "x01-2.tar.gz" "6s02-2/" "x02-1.tar.gz" "701-1/" "802-1.tar.gz" "6s02-2.tar.gz" "1101-2.tar.gz" "xs01-1.tar.gz" "x01-2/" "1102-2/" "xs02-2.tar.gz" "1102-1.tar.gz" "6s01-1.tar.gz" "newstats.py" "801-2/" "702-1.tar.gz" "6s01-2/" "xs01-2/" "701-2.tar.gz" "702-1/" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/react-native/src/modules/" (24259 24068 790287 147000) "collisionSetup/" "collisionDetected/" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/react-native/src/navigator/" (24259 24068 792173 801000) "index.js" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/react-native/src/components/" (24295 49098 942235 235000) "secondaryButton/" "subtitle/" "primaryButton/" "notificationIcon/" "index.js" "toolbar/" "title/" "themedImageView/" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/react-native/src/" (24259 24068 792387 229000) "modules/" "navigator/" "components/" "utils/" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/" (24415 17411 251775 877000) ".idea/" ".git/" "android/" "ios/" "react-native/" ".DS_Store" "../" "./")
+
+ ("/Users/" (23984 61998 0 0) "sudeepkumar/" "Shared/" "iosapp/" "sudeepk/" ".localized" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/.cask/27.1/bootstrap/" (24423 39567 335937 859000) "commander-20140120.1852/" "s-20180406.808/" "dash-20200803.1520/" "package-build-20200909.150/" "shut-up-20180628.1830/" "f-20191110.1357/" "archives/" "epl-20180205.2049/" "git-20140128.1041/" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/.cask/27.1/" (24423 40277 599558 526000) "elpa/" "bootstrap/" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/.cask/" (24423 39542 357332 254000) "27.1/" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/neuron-mode/" (24423 40325 363173 2000) ".git/" "Cask" ".cask/" ".gitignore" "README.md" "LICENSE.md" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/neuron-mode/.cask/27.1/elpa/f-20191110.1357/" (24423 39590 996366 654000) "f.elc" "f.el" "f-pkg.el" "f-autoloads.el" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/neuron-mode/.cask/27.1/elpa/archives/melpa/" (24423 39577 679146 162000) "archive-contents" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/neuron-mode/.cask/27.1/elpa/archives/gnu/" (24423 39570 656943 594000) "archive-contents.signed" "archive-contents" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/neuron-mode/.cask/27.1/elpa/archives/" (24423 39577 301481 99000) "melpa/" "gnu/" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/neuron-mode/.cask/27.1/elpa/" (24423 39590 886987 599000) "s-20180406.808/" "markdown-mode-20200909.2355/" "dash-20200803.1520/" "f-20191110.1357/" "archives/" "company-20200831.2016/" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/neuron-mode/.cask/27.1/" (24423 39567 662835 159000) "elpa/" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/neuron-mode/.cask/" (24423 39567 662759 913000) "27.1/" "../" "./")
+
+ ("/Users/sudeepkumar/open_source/zettelkasten/.neuron/" (24423 17969 6284 283000) ".shake/" "cache.json" "output/" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/snippets/haskell-snippets/snippets/" (24422 3977 812935 897000) "haskell-mode/" ".DS_Store" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/snippets/haskell-snippets/" (24422 3983 336203 744000) ".git/" "haskell-snippets.el" "README.md" ".hgignore" ".DS_Store" "snippets/" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/elpa/" (24421 40478 327359 553000) "paced-1.1.3.signed" "avy-0.5.0/" "request-20200517.1305/" "hc-zenburn-theme-readme.txt" "gnupg/" "ace-window-0.9.0.signed" "hasklig-mode-readme.txt" "auto-correct-1.1.4.signed" "loc-changes-1.2.signed" "haskell-mode-readme.txt" "ac-ispell-readme.txt" "loc-changes-1.2/" "haskell-emacs-readme.txt" "auto-correct-1.1.4/" "test-simple-1.3.0/" "load-relative-1.3.signed" "avy-0.5.0.signed" "easy-jekyll-readme.txt" "flycheck-grammarly-readme.txt" "yaml-mode-0.0.14/" "ace-window-0.9.0/" "json-mode-0.1/" "helm-core-20180712.837/" "swift-mode-readme.txt" "irony-readme.txt" "load-relative-1.3/" "flymd-20160617.1214/" "popup-20160709.1429/" "easy-jekyll-2.4.26/" "helm-20180805.611/" "markdown-mode-20180731.1830/" "markdown-mode+-20170320.2104/" "company-irony-readme.txt" "archives/" "realgud-1.4.5.signed" "test-simple-1.3.0.signed" "scheme-complete-20181029.1255/" "gnu-elpa-keyring-update-2019.3/" "yaml-mode-readme.txt" "json-mode-0.1.signed" "scheme-complete-readme.txt" "paced-1.1.3/" "swift-mode-8.0.1/" "async-20180527.1730/" ".DS_Store" "realgud-1.4.5/" "vlf-1.7.1.signed" "async-20200113.1745/" "vlf-1.7.1/" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/yasnippet/" (24421 63975 601711 78000) ".travis.yml" ".git/" "doc/" "CONTRIBUTING.md" ".gitignore" "NEWS" "Rakefile" "README.mdown" ".gitmodules" "yasnippet-tests.el" "yasnippet.el" "yasnippet-debug.el" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/snippets/haskell-snippets/snippets/haskell-mode/" (24421 64345 23493 249000) "constraint" "import" "main" "fn.clause" "fn" "case" "lambda" "instance" "fn.guarded" "let" "lang-pragma" "data.record" ".yas-make-groups" "module.exports" "if.inline" "newtype" ".yas-ignore-filenames-as-triggers" "import.qualified" "get" "comment.block" "if.block" "module" "opt-pragma" "data.inline" "../" "./")
+
+ ("/Users/sudeepkumar/open_source/haskell/" (24421 42534 681252 453000) "first.hs" "../" "./")
+
+ ("/Users/sudeepkumar/toolkit/" (23753 32164 0 0) "data" "data1" "haversine.py" "sdk_thrift_switcher.sh" "../" "./")
+
+ ("/usr/local/opt/chisel/" (24420 55647 205923 472000) "lib/" "README.md" "libexec/" ".brew/" "LICENSE" "INSTALL_RECEIPT.json" "../" "./")
+
+ ("/usr/local/opt/chisel/libexec/" (24344 32155 0 0) "fbchisellldbobjcruntimehelpers.py" "fblldb.py" "commands/" "fbchisellldbobjecthelpers.py" "fbchisellldbviewhelpers.py" "fbchisellldb.py" "fbchisellldbbase.py" "fbchisellldbviewcontrollerhelpers.py" "fbchisellldbinputhelpers.py" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/" (24383 45524 688497 235000) "cdetectorlib/" "SampleApp/" "sdk-docs/" "sdk-ios-sample/" "Zendrive Codebase-20190627T090337Z-001.zip" "tensorflow/" "zendrive-wt-1/" "ios-sdk-internal-builds/" "libZendriveSDK.a" "zendrive_evaluation_app_ios/" "Zendrive Xamarin/" "test-data/" "zendrive/" ".DS_Store" "XamarinSample/" "TempProject/" "zendrive_cocoapod/" "mobile-apps/" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive_cocoapod/" (24338 44053 631908 865000) "LICENSE.txt" ".git/" "ZendriveSDKTesting.framework/" "Swift/" "ZendriveSDK.podspec" "ZendriveSDK.framework/" ".DS_Store" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/toolbox/" (24382 28271 183724 388000) "credentials_preprod" "publish_es_metrics.py" "credentials" "end_to_end_testing/" "cron_tools/" "supported_devices/" "config_e2e_eu" "slack_android_deobfuscate.py" "trip_upload_reminder.py" "sqs_archive.py" "utils.pyc" "kibana_logcat.pyc" "elasticsearch/" "config_preprod" "emr_tools/" "disaster_recovery/" "config_preprod_eu" "cw_metric_fetch.py" "monitoring/" "generate_client_report.py" "billing_scripts/" "config_stage" "dynamo_to_es_data_backfill/" "transfer_cdr_messages.py" "elasticsearch_v53/" "sync_application_data_to_elastic.py" "__init__.pyc" "replay_data_relay.py" "backfill_user_id_for_aws_user_name.py" "ec2-ssh.sh" "jetsons/" "trip_selector.py" "locust_central_data_relay.py" "new_credentials_eu" "transfer_messages_across_queues.py" "rotate_db_passwords.py" "utils.py" "remove_driver_tasks_from_pipeline.py" "drop_users.sh" "es_data_retention/" "iam_tool.py" "elasticsearch_self_hosted/" "kibana_logcat.py" "data_point_dump.py" "new_config_eu" "get_cloudwatch_log_events.sh" "fetch_ebs_logs.py" "push_trip_mark_non_driving_task.py" "credentials_preprod_eu" "__init__.py" "zdpsql.sh" "backfill_dynamo_incorrect_trip_format_trips.py" "dump_data_for_driver_trip_across_schema.sh" "new_config" "config_eu" "credentials_stage" "backend_tools/" "replay_central_data_relay_dead_letter.py" "sdk_tools/" "backfill_server_events_in_camelCased_format.py" "populate_osm_data_in_s3.py" "new_credentials" "run_script_parallel.sh" "move_s3_keys.py" "credentials_e2e_eu" "security_check.py" "credentials_eu" "replay_given_task_types.py" "clib_osm_data_diff.py" "sqs_tools.py" "powerlog/" "config" "generate_unique_devices_data.py" "frontend/" ".DS_Store" "config_e2e" "emr/" "infra/" "set_lifecycle_s3_objects.py" "credentials_e2e" "loggly_cat.py" "data_pipeline/" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/iOS/ZDDogfood/fastlane/" (24354 38815 623885 723000) "report.xml" "README.md" "Fastfile" "Appfile" "Pluginfile" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive_cocoapod/Swift/" (24338 44052 839284 104000) ".DS_Store" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/iOS/ZendriveXamariniOSBinding/" (24358 59898 393136 407000) "Xamarin.Zendrive.iOS.6.0.14.nupkg" "Xamarin.Zendrive.iOS.6.0.0.11.nupkg" "Xamarin.Zendrive.iOS.6.0.0.7.nupkg" "Xamarin.Zendrive.iOS.6.0.0.5.nupkg" "Xamarin.Zendrive.iOS.6.0.16.nupkg" "ZendriveXamariniOSBinding.sln" "ZendriveXamariniOSBinding.nuspec" "Xamarin.Zendrive.iOS.6.0.12.nupkg" "Xamarin.Zendrive.iOS.6.0.0.1.nupkg" "Xamarin.Zendrive.iOS.6.0.0.3.nupkg" "Structs.cs" "Xamarin.Zendrive.iOS.6.0.0.4.nupkg" "Xamarin.Zendrive.iOS.6.0.0.12.nupkg" "Xamarin.Zendrive.iOS.6.0.15.nupkg" "Xamarin.Zendrive.iOS.6.0.0.10.nupkg" "Xamarin.Zendrive.iOS.6.0.0.6.nupkg" "ApiDefinition.cs" "Properties/" ".gitignore" "Xamarin.Zendrive.iOS.6.0.0.2.nupkg" "ZendriveXamariniOSBinding.csproj" "Xamarin.Zendrive.iOS.6.0.13.nupkg" "Xamarin.Zendrive.iOS.6.1.0-b-7.nupkg" ".vs/" "Xamarin.Zendrive.iOS.6.19.0.nupkg" "Xamarin.Zendrive.iOS.6.1.0-beta-test.nupkg" "Xamarin.Zendrive.iOS.6.1.0-b-5.nupkg" "Xamarin.Zendrive.iOS.6.1.0-test.nupkg" "Xamarin.Zendrive.iOS.6.1.0-beta-4.nupkg" "Xamarin.Zendrive.iOS.6.1.9.nupkg" "Xamarin.Zendrive.iOS.6.0.0.8.nupkg" "Xamarin.Zendrive.iOS.5.9.2.nupkg" "build_and_copy_sdk.sh" "bin/" "Native References/" "Xamarin.Zendrive.iOS.6.1.0-b-4.nupkg" "Xamarin.Zendrive.iOS.6.1.0-beta-3.nupkg" "Xamarin.Zendrive.iOS.6.1.0-b-6.nupkg" "Zendrive/" ".DS_Store" "copy_sdk_dependencies.sh" "Xamarin.Zendrive.iOS.6.0.0.9.nupkg" "obj/" "ZendriveXamariniOSBinding.csproj.user" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/iOS/zendrive-ios-sdk-testing/fastlane/" (24354 38815 657677 164000) "README.md" "Fastfile" "Appfile" "Pluginfile" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/iOS/ZendriveXamariniOSSample2/" (24358 59897 637892 670000) "SampleApp2.ipa" "packages/" ".vs/" "Assets.xcassets/" "bin/" ".DS_Store" "obj/" "../" "./")
+
+ ("/Users/sudeepkumar/open_source/slidingwindow/css/" (24343 11055 968427 947000) "main.scss" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/.git/" (24328 35257 727911 848000) "gitk.cache" "FETCH_HEAD" "COMMIT_EDITMSG" "packed-refs" "index" "refs/" "hooks/" "description" "logs/" "info/" "HEAD" "objects/" "config" "ORIG_HEAD" "../" "./")
+
+ ("/Users/sudeepkumar/open_source/slidingwindow/scripts/" (24320 44962 245532 131000) "deploy.sh" "../" "./")
+
+ ("/Users/sudeepkumar/open_source/slidingwindow/_site/" (24320 44599 799185 964000) "categories/" "assets/" "poems/" "robots.txt" "sitemap.xml" "rationality/" "2020/" "about/" "404.html" "css/" "index.html" "feed.xml" "../" "./")
+
+ ("/Users/sudeepkumar/open_source/slidingwindow/_layouts/" (23557 29270 0 0) "category.html" "default.html" "page.html" "post.html" "../" "./")
+
+ ("/Users/sudeepkumar/open_source/slidingwindow/assets/" (23557 29270 0 0) "vendor/" "../" "./")
+
+ ("/Users/sudeepkumar/open_source/slidingwindow/_images/" (24320 44117 559542 782000) "structure_synth.png" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/elpa/magit-20200627.806/" (24312 29379 78128 337000) "magit-status.el" "magit-section.el" "magit-blame.el" "magit.info" "magit-sequence.el" "magit-subtree.el" "magit-pull.el" "magit-autoloads.el" "magit-wip.el" "magit-repos.el" "magit-utils.el" "magit-pkg.el" "magit-apply.el" "dir" "magit-core.el" "magit-clone.el" "magit.info-1" "magit-autorevert.el" "magit-tag.el" "magit-obsolete.el" "magit-refs.el" "magit-diff.el" "magit-imenu.el" "magit-margin.el" "magit-commit.el" "magit-git.el" "magit-branch.el" "magit-patch.el" "magit-fetch.el" "magit-remote.el" "magit-files.el" "magit-mode.el" "magit-merge.el" "magit-ediff.el" "magit-log.el" "magit.el" "git-rebase.el" "magit-push.el" "magit-transient.el" "magit-bisect.el" "magit-process.el" "magit-stash.el" "LICENSE" "magit.info-2" "magit-notes.el" "magit-bookmark.el" "magit-submodule.el" "magit-worktree.el" "magit-reflog.el" "AUTHORS.md" "magit-gitignore.el" "magit-extras.el" "magit-reset.el" "../" "./")
+
+ ("/Users/sudeepkumar/.emacs.d/elpa/transient-20200622.2050/" (24312 20795 521634 419000) "transient-pkg.el" "transient.el" "dir" "transient.elc" "transient-autoloads.el" "transient.info" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/sdk-docs/ios/docs/latest/" (24276 59591 801254 936000) "Constants.html" "Protocols/" "Protocols.html" "docsets/" "Classes.html" "swift/" "undocumented.json" "Type Definitions.html" "img/" "Enums/" "js/" "Classes/" "css/" "search.json" ".DS_Store" "index.html" "Enums.html" "../" "./")
+
+ ("/Users/sudeepkumar/SICP/chapter3/" (24271 58601 806741 288000) "3.22.scm" "3.4.scm" "3.50.scm" "3.51.scm" "3.55.scm" "3.3.scm" "3.2.scm" "3.54.scm" "3.1.scm" "3.57.scm" "3.72.scm" "3.73.scm" "3.67.scm" "3.59.scm" "3.71.scm" "experiment.scm" "3.64.scm" "3.70.scm" "3.75.scm" "3.63.scm" "3.9.scm" "stream-imports.scm" "3.8.scm" "3.76.scm" "3.12.scm" "current4.scm" "3.16.scm" "3.14.scm" "evaluator.scm" "evaluator-copy.scm" "current3.scm" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/ios/" (24295 49098 790379 340000) "fairmatic/" ".gitignore" "copilot-lite/" ".swiftlint.yml" "copilot/" "ZDCommonLib/" ".DS_Store" "CopilotCommonLib/" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/iOS/" (24282 11014 946320 718000) "ZendriveLocationServiceDemo/" "ZendriveSDKTest/" "zendrive-ios-sdk-testing/" "SwiftSample/" "ZDDogfood/" "ZendriveMockDrive/" "ZendriveXamariniOSSample/" "ZendriveSDKDemo/" "ApplauseApps/" "ZendriveXamariniOSBinding/" "ZendriveUnifiedDemo/" "partner-apps/" "Zendrive/" ".DS_Store" "ZendriveXamariniOSSample2/" "ZendriveLocationService/" "ZAccDetection/" "ZendriveScripts/" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/ios/copilot/Copilot.xcodeproj/xcshareddata/" (23955 1795 919640 410000) "xcschemes/" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/mobile-apps/ios/copilot/Copilot.xcodeproj/xcshareddata/xcschemes/" (24295 49098 851910 225000) "Copilot.xcscheme" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/android/BatteryApp/" (24224 4304 551105 472000) "Gemfile" "MyApplication.java" "fastlane/" ".gitignore" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/android/" (24142 33690 857249 999000) "jenkins_clverification.sh" "customer_apps/" "__init__.pyc" ".gitignore" "ZendriveCopilot/" "xamarin/" "ZendriveOnduty/" "SDKReleases/" "PhoneGapApp/" "jenkins_testing_library_build.sh" "__init__.py" "adb_usb.ini" "zendrive-sdk-applause/" "ZendriveProject/" "tools/" "jenkins_build.sh" "ZAccDetection/" "BatteryApp/" "TripLogger/" "../" "./")
+
+ ("/Users/sudeepkumar/SICP/" (24250 56210 513240 423000) "chapter4/" "chapter3/" ".git/" "chapter2/" "testing.scm" "adventofcode/" "README.md" "adventofcode1.scm" "adventofcode2.scm" "sudeepk@tools-bastion.zendrive.com" "adventofcode3.scm" "adventofcode4.scm" "chapter1/" ".DS_Store" "adventofcode.scm" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/sdk/Classes/Internal_shared_headers/" (24239 60356 595173 177000) "ZendriveDriveStartInfo.h" "ZendriveMockAccidentConfig.h" "ZendriveConfiguration.h" "ZendriveLocationPoint.h" "NSDate+ZDRTimestampAdditions.h" "ZendriveStarRating.h" "ZDRLogger.h" "Zendrive+Private.h" "ZendriveDriveResumeInfo.h" "ZDRLoggerSink.h" "ZendriveTripWarning.h" "ZendriveFeedback.h" "ZendriveAnalyzedDriveInfo.h" "ZendriveDebug.h" "ZDRHMConstants.h" "ZDRReachabilityManager.h" "ZendriveEventRatings.h" "ZendriveError.h" "ZendriveEvent.h" "NSObject+ZDRBlockAdditions.h" "ZendriveDriveInfo.h" "ZendriveAccidentInfo.h" "ZDRPeriodicTask.h" "ZendriveTest.h" "ZDRNotificationConstants.h" "ZendriveErrorDomain.h" "ZendriveDriveScore.h" "ZendriveTripWarning.m" "ZendriveInsurance.h" "ZendriveActiveDriveInfo.h" "Zendrive.h" "ZendriveDriverAttributes.h" "ZDRGeneralConstants.h" "ZendriveEstimatedDriveInfo.h" "ZDRInternalAPI.h" "ZDRThriftRedefinitions.h" "ZDRInternalObjCHeaders.h" "../" "./")
+
+ ("/Users/sudeepkumar/Downloads/" (24123 62608 992447 900000) "Screen Shot 2019-07-12 at 12.35.58 PM.png" "Kumar-Sudeep-2019H1Review-Manager-Exceeds.pdf" "CreatingAndCombiningViews.zip" "WhatsApp Image 2019-09-17 at 12.41.57.jpeg" "New Doc 2019-11-11 17.17.21.pdf" "bazel-0.24.1-installer-darwin-x86_64.sh" "Archive (1).zip" "CreatingAndCombiningViews/" "Lesson 3 Page 6 - 8.mp3" "Clipy_1.2.1.dmg" "b9Bfe7b9MW2V_hurdlr.log" "Lesson 1 Page 1 - 2.mp3" "CopilotDistributionCert.p12" "Skype-8.51.0.92.dmg" "Archive.zip" "CopilotDistributionCert.p12.zip" "senior_engineer_checklist.csv" "CopilotDistributionCert 2.p12" "senior_engineer_checklist (2).csv" "Carthage.zip" "Citibank Account Statement-20180401 TO 20190331.pdf" "Screenshot 2020-01-22 at 18.12.47.png" "Flux.app/" "Screen Shot 2019-05-03 at 11.55.37 AM.png" "logs.zip" "diary.org" "symbols.map" "1maurocargeas.log" "logs (1).zip" "2019-07-27-20-19-24-127_1564238964127_XXXPK0358X_ITRV.zip" "Harry Potter and the Methods of Rationality.mobi" "logs/" "facebook-sudeepdino008.zip" "Statement.pdf" "Coursera_financial aid.docx" "GRDB.framework.zip" "Savings_Stmt_180719222748.xls" "create_dynamic_framework.sh.zip" "GRDB.framework/" "Juno App Store Rejection issue (1).eml" "Dulton_Ghosh_.pdf" "SampleApp2-2019-11-13-153329.ips" "Savings_Stmt_180719222745.xls" "symbols.map.zip" "sdk-6.0.0-beta-2.zip" "DSC_4999.JPG" "2019-07-27-20-19-24-127_1564238964127_XXXPK0358X_ITRV.pdf" "radare2book.pdf" "create_dynamic_framework.sh" "Lesson 2 vocabularies.mp3" "clib-1.4.0-alpha-1.zip" "clib-1.4.0-alpha-1/" "facebook-sudeepdino008/" "logs (1)/" "CRN3812439206.pdf" "415_behind_the_scenes_of_the_xcode_build_process.pdf" "DynamicBinaryFramework.xcframework.zip" "sdk-6.0.0-beta-2/" "jo2oqzl2.svg" "musings of the runner" "DynamicBinaryFramework.xcframework/" "Juno App Store Rejection issue.eml" "ZD050 _Apr 2019.pdf" "Self Review - Sudeep (Jan-Jun '19).pdf" "Archive/" "[Business] Your Wednesday evening trip with Uber.eml" "Screen Shot 2019-05-03 at 11.55.37 AM (1).png" ".DS_Store" "ZD050 _Mar 2019.pdf" "objectivesharpie-3.4.47.pkg" "senior_engineer_checklist (1).csv" "Lesson 2 vocabularies slow version.mp3" "2018-19.pdf" "ZendriveXamariniOSSample2/" "Flux.zip" "install_flash_player_osx_ppapi (1).dmg" "0GKh-MOZ7mun_hurdlr.log" "pycharm-community-2019.2.dmg" "meraki_sm_mdm.mobileconfig" "tmp_30a968790284561d6bc8dcd7d82c8c08f3a893a65d44504354c36bd99e2f4327_237498917103475308-32556/" "miss_collision.csv" "Sumit _final - V2.pdf" "Archive (1)/" "install_flash_player_osx_ppapi.dmg" "../" "./")
+
+ ("/Users/sudeepkumar/zendrive/" (24084 17748 435853 480000) "cdetectorlib/" "SampleApp/" "sdk-docs/" "sdk-ios-sample/" "Zendrive Codebase-20190627T090337Z-001.zip" "tensorflow/" "zendrive-wt-1/" "libZendriveSDK.a" "zendrive_evaluation_app_ios/" "Zendrive Xamarin/" "test-data/" "zendrive/" ".DS_Store" "XamarinSample/" "TempProject/" "zendrive_cocoapod/" "mobile-apps/" "../" "./")
+
+ ("/Users/sudeepkumar/SICP/chapter2/" (24062 8929 402994 54000) "2.6.scm" "2.7.scm" "2.5.scm" "2.4.scm" "2.1.scm" "2.3.scm" "2.2.scm" "2.13.scm" "2.12.scm" "2.10.scm" "2.11.scm" "2.29.scm" "2.14.scm" "2.28.scm" "2.17.scm" "2.32.scm" "2.26.scm" "2.27.scm" "2.33.scm" "2.25.scm" "2.31.scm" "2.19.scm" "2.14-15.scm" "2.18.scm" "2.30.scm" "2.24.scm" "2.20.scm" "2.34.scm" "2.35.scm" "2.21.scm" "2.23.scm" "2.22.scm" "test.scm" "2.9.scm" "2.8.scm" "../" "./")
+
+ ("/usr/local/opt/" (24048 31546 110871 847000) "adns/" "npth/" ".keepme" "gnutls/" "telnet/" "libffi/" "git/" "bison@3.0/" "automake/" "npm/" "cocoapods/" "p11-kit/" "bison/" "gnupg/" "sshuttle/" "thrift@0.9/" "libass/" "libusb/" "openssl/" "jq/" "jpeg/" "texinfo/" "node/" "reattach-to-user-namespace/" "libtasn/" "rpl/" "x264/" "pcre/" "openssl@1.1/" "libevent/" "youtube-dl/" "pcre2/" "ffmpeg@4/" "oniguruma/" "watch/" "s3cmd/" "rapidjson/" "libtasn1/" "cowthink/" "ios-class-guard/" "tmux/" "autoconf/" "git-review/" "mpv/" "postgresql@10/" "sqlite3/" "gettext/" "chisel/" "sqlcipher/" "emacs-mac/" "gnupg2/" "sourcekitten/" "react-native-cli/" "autoconf@2.69/" "node.js/" "postgres/" "thrift/" "xctool/" "fontconfig/" "libgcrypt/" "ninja/" "bash/" "xz/" "fribidi/" "libgpg-error/" "sqlite/" "cairo/" "mujs/" "libassuan/" "graphite2/" "carthage/" "awscli/" "parquet-tools/" "llvm/" "readline/" "glib/" "lua@5.1/" "harfbuzz/" "icu4c/" "pcre1/" "libnettle/" "libunistring/" "boost/" "appledoc/" "python2/" "gnupg@2.2/" "python/" "freetype/" "cmake/" "python@3/" "gdbm/" "pixman/" "nettle/" "gpg/" "bashdb/" "python3/" "mint/" "ncurses/" "libjpg/" "libpng/" "libjpeg/" "lcms2/" "thrift@0.11/" "swig/" ".DS_Store" "little-cms2/" "python@2/" "autojump/" "libksba/" "pkgconfig/" "xvid/" "mit-scheme/" "imagemagick@6/" "gpg2/" "nodejs/" "pinentry/" "ffmpeg/" "postgresql/" "gmp/" "libtool/" "libtiff/" "pkg-config/" "lame/" "boost@1.68/" "llvm@8/" "cowsay/" "pyenv/" "../" "./")
+
+ ("/usr/local/Caskroom/" (23864 5663 401552 512000) "mpv/" "clipy/" "macvim/" "android-sdk/" "android-platform-tools/" "java8/" "../" "./")
+
+ ("/usr/local/" (24036 65432 556954 876000) "share/" "Cellar/" "Frameworks/" "opt/" "lib/" "Caskroom/" "var/" "Homebrew/" "etc/" "sbin/" "include/" ".com.apple.installer.keep" "bin/" "../" "./")
+
+ ("/usr/" (24036 65040 356166 842000) "share/" "X11R6" "X11" "lib/" "local/" "sbin/" "libexec/" "standalone/" "bin/" "../" "./")
+
+ ("/Users/sudeepkumar/Zendrive/zendrive/iOS/ZendriveXamariniOSSample2/.vs/SampleApp2/xs/project-cache/" (24014 26838 578952 61000) "SampleApp2-Debug|iPhone.json" "SampleApp2-Release|iPhoneSimulator.json" "SampleApp2-Debug|iPhoneSimulator.json" "SampleApp2-Release|iPhone.json" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
