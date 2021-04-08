@@ -7,7 +7,7 @@
 ;; Author: Natalie Weizenbaum <nex342@gmail.com>
 ;; URL: http://github.com/nex3/perspective-el
 ;; Package-Requires: ((emacs "24.4") (cl-lib "0.5"))
-;; Version: 2.11
+;; Version: 2.14
 ;; Created: 2008-03-05
 ;; By: Natalie Weizenbaum <nex342@gmail.com>
 ;; Keywords: workspace, convenience, frames
@@ -65,6 +65,13 @@ perspectives."
   :type '(list (string :tag "Open")
                (string :tag "Close")
                (string :tag "Divider")))
+
+(defcustom persp-modestring-short nil
+  "When t, show a shortened modeline string.
+A shortened modeline string only displays the current perspective
+instead of the full perspective list."
+  :group 'perspective-mode
+  :type 'boolean)
 
 (defcustom persp-mode-prefix-key (kbd "C-x x")
   "Prefix key to activate perspective-map."
@@ -292,6 +299,35 @@ Run with the activated perspective active.")
 (define-key perspective-map persp-mode-prefix-key 'persp-switch-last)
 (define-key perspective-map (kbd "C-s") 'persp-state-save)
 (define-key perspective-map (kbd "C-l") 'persp-state-load)
+(define-key perspective-map (kbd "`") 'persp-switch-by-number)
+
+(define-key perspective-map (kbd "1") (lambda () (interactive) (persp-switch-by-number 1)))
+(define-key perspective-map (kbd "2") (lambda () (interactive) (persp-switch-by-number 2)))
+(define-key perspective-map (kbd "3") (lambda () (interactive) (persp-switch-by-number 3)))
+(define-key perspective-map (kbd "4") (lambda () (interactive) (persp-switch-by-number 4)))
+(define-key perspective-map (kbd "5") (lambda () (interactive) (persp-switch-by-number 5)))
+(define-key perspective-map (kbd "6") (lambda () (interactive) (persp-switch-by-number 6)))
+(define-key perspective-map (kbd "7") (lambda () (interactive) (persp-switch-by-number 7)))
+(define-key perspective-map (kbd "8") (lambda () (interactive) (persp-switch-by-number 8)))
+(define-key perspective-map (kbd "9") (lambda () (interactive) (persp-switch-by-number 9)))
+(define-key perspective-map (kbd "0") (lambda () (interactive) (persp-switch-by-number 10)))
+
+(declare-function which-key-mode "which-key.el")
+(when (fboundp 'which-key-mode)
+  (require 'which-key)
+  (declare-function which-key-add-keymap-based-replacements "which-key.el")
+  (when (fboundp 'which-key-add-keymap-based-replacements)
+    (which-key-add-keymap-based-replacements perspective-map
+      "1" "switch to 1"
+      "2" "switch to 2"
+      "3" "switch to 3"
+      "4" "switch to 4"
+      "5" "switch to 5"
+      "6" "switch to 6"
+      "7" "switch to 7"
+      "8" "switch to 8"
+      "9" "switch to 9"
+      "0" "switch to 10")))
 
 (defun perspectives-hash (&optional frame)
   "Return a hash containing all perspectives in FRAME.
@@ -449,7 +485,7 @@ first."
 (defun persp-all-names (&optional not-frame)
   "Return a list of the perspective names for all frames.
 Excludes NOT-FRAME, if given."
-  (cl-reduce 'union
+  (cl-reduce 'cl-union
              (mapcar
               (lambda (frame)
                 (unless (equal frame not-frame)
@@ -550,7 +586,11 @@ For example, (persp-intersperse '(1 2 3) 'a) gives '(1 a 2 a 3)."
   "Select the clicked perspective.
 EVENT is the click event triggering this function call."
   (interactive "e")
-  (persp-switch (format "%s" (car (posn-string (event-start event))))))
+  (persp-switch (format "%s" (car (posn-string (event-start event)))))
+  ;; XXX: Force update of modestring because otherwise it's inconsistent with
+  ;; the order of perspectives maintained by persp-sort. The call to
+  ;; persp-update-modestring inside persp-switch happens too early.
+  (persp-update-modestring))
 
 (defun persp-mode-line ()
   "Return the string displayed in the modeline representing the perspectives."
@@ -565,8 +605,10 @@ Has no effect when `persp-show-modestring' is nil."
           (sep (nth 2 persp-modestring-dividers)))
       (set-frame-parameter nil 'persp--modestring
            (append open
-                   (persp-intersperse (mapcar 'persp-format-name
-                                              (persp-names)) sep)
+                   (if persp-modestring-short
+                       (list (persp-current-name))
+                     (persp-intersperse (mapcar 'persp-format-name
+                                                (persp-names)) sep))
                    close)))))
 
 (defun persp-format-name (name)
@@ -630,12 +672,29 @@ If NORECORD is non-nil, do not update the
       (set-frame-parameter nil 'persp--last (persp-curr))
       (when (null persp)
         (setq persp (persp-new name)))
-      (run-hooks 'persp-before-switch-hook)
+      (unless norecord
+        (run-hooks 'persp-before-switch-hook))
       (persp-activate persp)
       (unless norecord
-        (setf (persp-last-switch-time persp) (current-time)))
-      (run-hooks 'persp-switch-hook)
+        (setf (persp-last-switch-time persp) (current-time))
+        (run-hooks 'persp-switch-hook))
       name)))
+
+(defun persp-switch-by-number (num)
+  "Switch to the perspective given by NUMBER."
+  (interactive "NSwitch to perspective number: ")
+  (let* ((persps (persp-names))
+         (max-persps (length persps)))
+    (if (<= num max-persps)
+        (persp-switch (nth (- num 1) persps))
+      (message "Perspective number %s not available, only %s exist%s"
+               num
+               max-persps
+               (if (= 1 max-persps) "s" ""))))
+  ;; XXX: Have to force the modestring to update in this case, since the call
+  ;; inside persp-switch happens too early. Otherwise, it may be inconsistent
+  ;; with persp-sort.
+  (persp-update-modestring))
 
 (defun persp-activate (persp)
   "Activate the perspective given by the persp struct PERSP."
@@ -858,7 +917,7 @@ copied across frames."
         (let ((persp (gethash name (perspectives-hash))))
           (if persp (cl-return-from persp-all-get (persp-buffers persp))))))))
 
-(defun persp-read-buffer (prompt &optional def require-match)
+(defun persp-read-buffer (prompt &optional def require-match predicate)
   "A replacement for the built-in `read-buffer', meant to be used with `read-buffer-function'.
 Return the name of the buffer selected, only selecting from buffers
 within the current perspective.
@@ -869,7 +928,7 @@ With a prefix arg, uses the old `read-buffer' instead."
   (persp-protect
     (let ((read-buffer-function nil))
       (if current-prefix-arg
-          (read-buffer prompt def require-match)
+          (read-buffer prompt def require-match predicate)
         ;; Most of this is taken from `minibuffer-with-setup-hook',
         ;; slightly modified because it's not a macro.
         ;; The only functional difference is that the append argument
@@ -884,7 +943,7 @@ With a prefix arg, uses the old `read-buffer' instead."
           (unwind-protect
               (progn
                 (add-hook 'minibuffer-setup-hook persp-read-buffer-hook t)
-                (read-buffer prompt def require-match))
+                (read-buffer prompt def require-match predicate))
             (remove-hook 'minibuffer-setup-hook persp-read-buffer-hook)))))))
 
 (defun persp-complete-buffer ()
@@ -1202,6 +1261,26 @@ PERSP-SET-IDO-BUFFERS)."
                        (buffer-name (current-buffer))))))
   (kill-buffer buffer-or-name))
 
+;; Buffer switching integration: buffer-menu.
+;;;###autoload
+(defun persp-buffer-menu (arg)
+  "Like the default C-x C-b, but filters for the current perspective's buffers."
+  (interactive "P")
+  (if (and persp-mode (null arg))
+      (switch-to-buffer
+       (list-buffers-noselect nil (seq-filter 'buffer-live-p (persp-current-buffers))))
+    (switch-to-buffer (list-buffers-noselect))))
+
+;; Buffer switching integration: list-buffers.
+;;;###autoload
+(defun persp-list-buffers (arg)
+  "Like the default C-x C-b, but filters for the current perspective's buffers."
+  (interactive "P")
+  (if (and persp-mode (null arg))
+      (display-buffer
+       (list-buffers-noselect nil (seq-filter 'buffer-live-p (persp-current-buffers))))
+    (display-buffer (list-buffers-noselect))))
+
 ;; Buffer switching integration: bs.el.
 ;;;###autoload
 (defun persp-bs-show (arg)
@@ -1250,6 +1329,7 @@ PERSP-SET-IDO-BUFFERS)."
     (user-error "Ivy not loaded"))
   (defvar ivy-switch-buffer-map)
   (declare-function ivy-read "ivy.el")
+  (declare-function ivy-switch-buffer "ivy.el")
   (declare-function ivy--switch-buffer-matcher "ivy.el")
   (declare-function ivy--switch-buffer-action "ivy.el")
   (if (and persp-mode (null arg))
@@ -1257,9 +1337,14 @@ PERSP-SET-IDO-BUFFERS)."
              (append
               (list
                (format "Switch to buffer (%s): " (persp-current-name))
-               (cl-remove-if #'null (mapcar #'buffer-name (persp-current-buffers)))
+               (cl-remove-if #'null (mapcar #'buffer-name
+                                            ;; buffer-list is ordered by access time
+                                            ;; seq-intersection keeps the order
+                                            (seq-intersection (buffer-list)
+                                                              (persp-current-buffers))))
                :preselect (buffer-name (persp-other-buffer (current-buffer)))
                :keymap ivy-switch-buffer-map
+               :caller #'ivy-switch-buffer
                :action #'ivy--switch-buffer-action
                :matcher #'ivy--switch-buffer-matcher)
               ivy-params))
@@ -1271,7 +1356,16 @@ PERSP-SET-IDO-BUFFERS)."
   "A version of `ivy-switch-buffer' which respects perspectives."
   (interactive "P")
   (declare-function ivy-switch-buffer "ivy.el")
-  (persp--switch-buffer-ivy-counsel-helper arg nil #'ivy-switch-buffer))
+  (declare-function ivy--buffer-list "ivy.el")
+  (let ((saved-ivy-buffer-list (symbol-function 'ivy--buffer-list))
+        (temp-ivy-buffer-list (lambda (_str &optional _virtual _predicate)
+                                (persp-current-buffer-names))))
+    (unwind-protect
+        (progn
+          (when (and persp-mode (null arg))
+            (setf (symbol-function 'ivy--buffer-list) temp-ivy-buffer-list))
+          (persp--switch-buffer-ivy-counsel-helper arg nil #'ivy-switch-buffer))
+      (setf (symbol-function 'ivy--buffer-list) saved-ivy-buffer-list))))
 
 ;; Buffer switching integration: Counsel.
 ;;;###autoload
@@ -1284,8 +1378,7 @@ PERSP-SET-IDO-BUFFERS)."
   (declare-function counsel--switch-buffer-unwind "counsel.el")
   (declare-function counsel--switch-buffer-update-fn "counsel.el")
   (persp--switch-buffer-ivy-counsel-helper arg
-                                           (list :caller #'counsel-switch-buffer
-                                                 :unwind #'counsel--switch-buffer-unwind
+                                           (list :unwind #'counsel--switch-buffer-unwind
                                                  :update-fn #'counsel--switch-buffer-update-fn)
                                            #'counsel-switch-buffer))
 
@@ -1541,7 +1634,7 @@ restored."
 (defalias 'persp-state-restore 'persp-state-load)
 
 
-;;; --- done
+;;; --- done
 
 ;;; XXX: Undo nasty kludge necessary for cleanly compiling this source file by
 ;;; restoring saved frame parameters, and removing the variable used to save
